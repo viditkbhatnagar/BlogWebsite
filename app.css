@@ -1,0 +1,41 @@
+.fa-heart {
+    font-size: 14px;
+    align-items: center;
+    font-weight: bolder;
+    padding-inline: 100px;
+    background-position: center;
+    margin-right: 10px;
+    margin-right: 0.5cm;
+    color: red;
+    border-radius: 150%;
+    -webkit-border-radius: 150%;
+    -moz-border-radius: 150%;
+    -ms-border-radius: 150%;
+    -o-border-radius: 150%;
+}
+
+.fa-moon-o {
+    font-size: 20px;
+    align-items: center;
+    font-weight: bolder;
+    padding-inline: 100px;
+    background-position: center;
+    margin-right: 10px;
+    margin-right: 0.5cm;
+    color: yellow;
+    border-radius: 150%;
+    -webkit-border-radius: 150%;
+    -moz-border-radius: 150%;
+    -ms-border-radius: 150%;
+    -o-border-radius: 150%;
+}
+
+@media only screen and(max-width: 750px) {
+    .nav .nav-menu,
+    .nav .nav-items {
+        flex-direction: column;
+    }
+    .nav .toggle-collapse {
+        display: initial;
+    }
+}
